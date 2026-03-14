@@ -5,7 +5,7 @@ The system is designed to streamline online shopping experiences by leveraging O
 
 ## Project Objectives & Goals
 
-### User Experience
+### . User Experience
 To create a seamless and intuitive shopping experience for users by simplifying product management and checkout processes.
 
 ### Transaction Security
