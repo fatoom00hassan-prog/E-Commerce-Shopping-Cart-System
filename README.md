@@ -5,64 +5,87 @@ The system is designed to streamline online shopping experiences by leveraging O
 
 ## Project Objectives & Goals
 
-### -User Experience
-To create a seamless and intuitive shopping experience for users by simplifying product management and checkout processes.
+### User Experience
+- Create a seamless and intuitive shopping experience for users.
+- Simplify product management and checkout processes.
 
-### -Transaction Security
-To ensure safe and reliable online transactions through secure payment and shipping methods.
+### Transaction Security
+- Ensure safe and reliable online transactions.
+- Support secure payment and shipping methods.
 
 ## System Functionality
 
 ### Product Management
-Users can add, update, and remove items from the cart with real-time updates.
+- Add products to the system.
+- Update existing product information.
+- Remove items from the cart with real-time updates.
 
 ### Checkout Process
-Secure payment and shipping processes with real-time product availability checks.
+- Secure payment and shipping processes.
+- Real-time product availability checks.
 
 ### User Authentication
-User sessions automatically expire after inactivity, enhancing security and protecting user data.
+- User login system.
+- Sessions automatically expire after inactivity to enhance security.
 
 ### Error Handling
-Validation of payment and shipping information, input sanitization, and rate limiting are implemented to prevent misuse and ensure system reliability.
+- Validation of payment and shipping information.
+- Input sanitization to prevent invalid data.
+- Rate limiting to prevent misuse.
 
 ## System Users & Roles
 
 ### Customer
-Customers can browse products, add items to the cart, and complete the checkout process.
+- Browse available products.
+- Add products to the shopping cart.
+- Remove items from the cart.
+- Complete the checkout process.
 
 ### Administrator
-Administrators can add, update, and delete products in the system.
+- Add new products.
+- Update product information.
+- Delete products from the system.
 
 ## Object-Oriented Programming Concepts
 
 This project demonstrates several key Object-Oriented Programming (OOP) principles:
 
 ### Encapsulation
-Data and related methods are grouped together within classes to ensure better organization and data protection.
+- Data and related methods are grouped within classes.
+- Ensures better organization and data protection.
 
 ### Inheritance
-Subclasses inherit attributes and behaviors from parent classes, allowing code reuse and better structure.
+- Subclasses inherit attributes and behaviors from parent classes.
+- Improves code reuse and system structure.
 
 ### Polymorphism
-Methods can behave differently depending on the object type, enabling flexible and dynamic behavior.
+- Methods behave differently depending on the object type.
+- Enables flexible and dynamic behavior.
 
 ### Abstraction
-Complex functionality is simplified through well-structured classes that hide unnecessary implementation details.
+- Complex functionality is simplified through structured classes.
+- Implementation details are hidden from the user.
 
 ## Main Classes
 
 ### Product
-Represents a general product with attributes such as ID, name, price, stock, and description.
+- Represents a general product.
+- Contains attributes such as ID, name, price, stock, and description.
 
 ### User
-Represents the general user structure with login credentials.
+- Represents system users.
+- Contains login credentials.
 
 ### Customer
-A subclass of `User` that allows customers to browse products, add items to the cart, and complete purchases.
+- A subclass of `User`.
+- Allows browsing products, adding items to the cart, and completing purchases.
 
 ### Admin
-A subclass of `User` responsible for managing products by adding, updating, and deleting them.
+- A subclass of `User`.
+- Responsible for adding, updating, and deleting products.
 
 ### Cart
-Represents the shopping cart that stores selected products and calculates the total price.
+- Represents the shopping cart.
+- Stores selected products.
+- Calculates the total price of items.
 
